@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-light  fixed-top justify-content-center gris">
+      <nav class="navbar navbar-expand-lg navbar-light  fixed-top justify-content-center bg-secondary" id="menu">
         <div class="container text-center justify-content-center">
                 <a class="navbar-brand" href="#"><img src="imagen/logo4.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,10 +46,13 @@
     </header>
 
     <section class="carrusel text-center py-5">
-      <h2>Acerca de mi</h2>
-      <p style="text-align: center;">Soy <strong>Diseñador </strong>de <strong>Paginas web. </strong>Estudio constantemente de manera autodidactica
-      las tecnologias web que hou en dia construyen internet. Sé que hoy en día necesitamos más que nunca mucha 
-      perseverancia, disciplina, responsabilidad y valores.</p>
+      <div class="container text-center">
+        <h2>Acerca de mi</h2>
+        <p style="text-align: center;">Soy <strong>Diseñador </strong>de <strong>Paginas web. </strong>Estudio constantemente de manera autodidactica
+        las tecnologias web que hoy en dia construyen internet. Sé que hoy en día necesitamos más que nunca mucha 
+        perseverancia, disciplina, responsabilidad y valores.</p>
+      </div>
+      
       <div class="container text-center">
         <div class="row">
           <div class="col-md-12 my-5">
@@ -107,25 +110,25 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle" src="imagen/full.png" alt="Generic placeholder image" width="200" height="190">
+            <img class="rounded-circle" src="imagen/full.png" target="_blank" alt="Generic placeholder image" width="200" height="190">
             <h2>Full burbujas</h2>
             <p>Es una página que he diseñado que se dedica al alquiler de campos de fútbol,
               <strong> fútbol burbujas, </strong> para el disfrute de toda la familia. Organiza campeonatos de fútbol.</p>
-            <p><a class="btn btn-secondary" href="https://fullburbujas.com/" role="button">Más Detalles »</a></p>
+            <p><a class="btn btn-secondary" href="https://fullburbujas.com/" target="_blank" role="button">Más Detalles »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="imagen/montipan.png" alt="Generic placeholder image" width="200" height="190">
             <h2>Montipan</h2>
             <p>Es una de las paginas que he diseñado que es una <strong>Panadería y pastelería Montipan en Madrid,</strong> 
               se elabora o se vende pan y a menudo productos de bollería.</p>
-            <p><a class="btn btn-secondary" href="https://montipan.com/" role="button">Más Detalles »</a></p>
+            <p><a class="btn btn-secondary" href="https://montipan.com/" target="_blank" role="button">Más Detalles »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="imagen/trabasse.png" alt="Generic placeholder image" width="200" height="190">
             <h2>Trabasee Language</h2>
             <p>Es una pagina que he diseñado <strong>Trabasse Languages,</strong>  academia de inglés en el centro de Madrid especializada en cursos de Inglés y
                Español para extranjeros. Aprende un idioma.</p>
-            <p><a class="btn btn-secondary" href="https://trabasselanguages.es/" role="button">Más Detalles »</a></p>
+            <p><a class="btn btn-secondary" href="https://trabasselanguages.es/" target="_blank" role="button">Más Detalles »</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -150,7 +153,15 @@
             <img class="card-img-top"  style="height:100%" src="imagen/image5024.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Carlos Salazar Romero</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">
+                <ul class="text-center">
+                  <li>Mantenimientos de equipos de computo.</li>
+                  <li>Reparación de ordenadores.</li>
+                  <li>Ensamblaje de Ordenadores.</li>
+                  <li>Diseño grafico.</li>
+                  <li>Diseño web.</li>
+                </ul>
+              </p>
             </div>
             
           </div>
@@ -158,23 +169,43 @@
             <img class="card-img-top"  src="imagen/aepi.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">AEPI</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">
+                <ul class="text-center diseno">
+                  <li>HTML.</li>
+                  <li>CSS.</li>
+                  <li>JavaScript</li>
+                </ul>
+              </p>
             </div>
             
           </div>
           <div class="card">
-            <img class="card-img-top"  style="height:100%" src="imagen/loeches.png" alt="Card image cap">
+            <img class="card-img-top"  style="height:50%" src="imagen/loeches.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Loeches</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">
+                <ul class="text-center database">
+                  <li>Gestión de base de datos.</li>
+                  <li>Administración de base de datos.</li>
+                  <li>Mysql</li>
+                  <li>Consulta de base de datos.</li>
+                </ul>
+              </p>
             </div>
             
           </div>
           <div class="card">
-            <img class="card-img-top" style="height:100%" src="imagen/colon.jpg" alt="Card image cap">
+            <img class="card-img-top" style="height:50%" src="imagen/colon.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Grupo Colón</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">
+                <ul class="text-center diseno">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript y Jquery.</li>
+                  <li>Bootstrap.</li>
+                </ul>
+              </p>
             </div>
             
           </div>
@@ -197,10 +228,10 @@
   
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook-official"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              <li><a class="facebook" href="https://es-es.facebook.com/"><i class="fa fa-facebook-official" target="_blank"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com"><i class="fa fa-twitter" target="_blank"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble" target="_blank"></i></a></li>
+              <li><a class="linkedin" href="https://es.linkedin.com/"><i class="fa fa-linkedin" target="_blank"></i></a></li>   
             </ul>
           </div>
         </div>
@@ -216,5 +247,14 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu").offset().top > 56) {
+            $("#menu").addClass("bg-secondary");
+        } else {
+            $("#menu").removeClass("bg-secondary");
+        }
+      });
+</script>
   </body>
 </html>
